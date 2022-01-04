@@ -1,0 +1,12 @@
+{
+  "hosting": {
+"site": "tanzania-oio",
+
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
