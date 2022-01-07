@@ -1,4 +1,4 @@
-import React from 'react';
+
 export const Team = [
     {   
         id: 0,
@@ -46,4 +46,33 @@ export const Team = [
       
 
 ]
-export default Team
+
+export const Exprole = [
+    {   
+        id: 0,
+        title:'Innovation',
+        desc: 'Supporting local innovators with relevant skills and programs, accessibility of tools and technical support towards innovation and impact',
+        
+      },
+
+      {   
+        id: 1,
+        title:'Ecosystem',
+        desc: 'Creating a conducive ecosystem around the community where ideas are brought to reality',
+        
+      },
+
+      {   
+        id: 2,
+        title:'Foundation',
+        desc: 'Scalable and sustainable CO-OP’s that are managed and lead by our very own makers',
+        
+      },
+
+      {   
+        id: 3,
+        title:'Growth',
+        desc: 'Community of evolving innovators and makers supporting one another in various aspects of innovations',
+        
+      },
+    ]

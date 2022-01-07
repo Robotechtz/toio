@@ -2,11 +2,17 @@ import React,{ useState, useRef } from 'react'
 import { Transition } from "@headlessui/react";
 import { Link } from "react-router-dom";
 
-function Navbar() {
+function Navbar({setExplore}) {
     const [isOpen, setIsOpen] = useState(false);
   const ref = useRef();
+  const navig = () => {
+    setExplore(true)
+  }
+  const resume = () => {
+    setExplore(false)
+  }
     return (
-          <div className="fixed z-10 w-full lg:sticky">
+          <div className="fixed z-30 w-full lg:sticky">
       <nav className="h-16 py-1.5 bg-transparent ">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
@@ -22,12 +28,12 @@ function Navbar() {
               </div>
               <div className="hidden md:block">
                 <div className="flex items-baseline ml-10 space-x-4">
-                  <Link
-                    to="/"
+                  <div
+                    onClick={navig}
                     className="px-3 py-2 text-sm lg:text-2xl font-medium text-white rounded-md hover:bg-gray-700 hover:text-white"
                   >
                     Explore
-                  </Link>
+                  </div>
 
                   {/* <Link
                     to="/service"
@@ -43,12 +49,12 @@ function Navbar() {
                     Our Team
                   </Link> */}
 
-                  <Link
-                    to="/"
+                  <div
+                    onClick={resume}
                     className="px-3 py-2 text-sm lg:text-2xl font-medium text-white rounded-md hover:bg-gray-700 hover:text-white"
                   >
                     Home
-                  </Link>
+                  </div>
                 </div>
               </div>
             </div>
