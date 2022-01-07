@@ -1,0 +1,9 @@
+.footer-top {
+  background-color: #111;
+  padding: 8px;
+  background: url("https://firebasestorage.googleapis.com/v0/b/medias-da388.appspot.com/o/toio-media%2Fbrain-study-background-mental-health-care-medical-technology%20(1).jpg?alt=media&token=3a109ed6-8bd2-41a4-b8c1-904f3d020c96")
+    no-repeat;
+  background-size: cover;
+  min-height: 27vh;
+}
+
