@@ -7,6 +7,7 @@ import "./styles/home.css"
 import OurTeam from './OurTeam';
 import Explore from './Explore';
 import Service from './Service';
+import About from './About';
 
 function Home() {
     const [explore, setExplore] = useState(false)
@@ -38,12 +39,13 @@ function Home() {
            </div>
            <div className='flex items-center justify-center '>
         <span className='h-16 w-32 bg-red-600 rounded-sm block mx-3'></span>
-        <p className='text-2xl text-white font-bold justify capitalize block w-2/5'>We focus towards technology innovation for the youth of community</p>
+        <p className='text-2xl text-white font-bold justify capitalize block w-2/5'>We focus towards technology innovation for the youth community</p>
            </div>
            </>}  
             </div>
         <Service/>
            <OurTeam/>
+           <About/>
             <Footer/>
         </div>
     )

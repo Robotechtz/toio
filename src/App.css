@@ -1,0 +1,26 @@
+.App {
+  font-family: "Poppins";
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 16px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 50vh;
+  background: #f34400;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fbfcfd;
+  border-radius: 100vh;
+  border: 1px solid #00060a;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00060a;
+}
