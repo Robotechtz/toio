@@ -47,7 +47,7 @@ export const Team = [
 
 ]
 
-export const Exprole = [
+export const Exproledata = [
     {   
         id: 0,
         title:'Innovation',

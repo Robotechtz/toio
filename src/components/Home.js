@@ -5,6 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import "./styles/home.css"
 import OurTeam from './OurTeam';
+import Explore from './Explore';
 
 function Home() {
     const [explore, setExplore] = useState(false)
@@ -30,7 +31,7 @@ function Home() {
                 </div>
             </Carousel></div>
             <div className='z-20 relative h-screen w-full words'>
-              {explore?<div className='w-full grid place-items-center h-screen text-white '>explore</div>:<>
+              {explore?<div className='w-full grid place-items-center h-screen '><Explore/></div>:<>
                    <div className='w-full h-screen grid place-items-center  words'>
         <span className="font-bold text-9xl text-white capitalize">Innovation</span>
            </div>
