@@ -6,6 +6,7 @@ import { Carousel } from 'react-responsive-carousel';
 import "./styles/home.css"
 import OurTeam from './OurTeam';
 import Explore from './Explore';
+import Service from './Service';
 
 function Home() {
     const [explore, setExplore] = useState(false)
@@ -41,7 +42,7 @@ function Home() {
            </div>
            </>}  
             </div>
-        
+        <Service/>
            <OurTeam/>
             <Footer/>
         </div>

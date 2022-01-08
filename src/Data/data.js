@@ -76,3 +76,30 @@ export const Exproledata = [
         
       },
     ]
+
+export const Servicedata=[
+  {
+    id:0,
+    desc:"A wide range of educational courses in areas of Robotics,Software Development,AI, IOT and more",
+    title:"Training Programs",
+    pic:"https://firebasestorage.googleapis.com/v0/b/robotech-web.appspot.com/o/Training-07.png?alt=media&token=56ceafa8-59c1-4bb0-ba99-4e85e43e316e",
+  },
+  {
+    id:1,
+    desc:"Taking the vision from an idea into reality with the first steps towards the first prototype",
+    title:"Prototyping And Testing",
+    pic:"https://firebasestorage.googleapis.com/v0/b/robotech-web.appspot.com/o/prototyping-07.png?alt=media&token=772bd2f1-493b-4263-b1d0-f832cbf31f1d",
+  },
+  {
+    id:2,
+    desc:"Advancement of the prototype vision towards a more prominent feel and look",
+    title:"Fabrication And Design",
+    pic:"https://firebasestorage.googleapis.com/v0/b/robotech-web.appspot.com/o/Fabrication-07.png?alt=media&token=c4921f18-5b08-4491-a354-640022f77dd6",
+  },
+  {
+    id:3,
+    desc:"Assistance and guidance in various areas of interest across various tech spaces",
+    title:"Technical Consultancy And Support",
+    pic:"https://firebasestorage.googleapis.com/v0/b/robotech-web.appspot.com/o/technical-07.png?alt=media&token=9d8356f0-8937-456a-a95f-c4cb93652e78",
+  },
+]
