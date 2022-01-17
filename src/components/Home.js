@@ -33,7 +33,7 @@ function Home() {
                 </div>
             </Carousel></div>
             <div className='z-20 relative h-screen w-full words'>
-              {explore?<div className='w-full grid place-items-center h-screen '><Explore/></div>:<>
+              {explore?<div className='w-full grid place-items-center -mr-40 h-screen '><Explore/></div>:<>
                    <div className='w-full h-screen grid place-items-center  words'>
         <span className="font-bold text-9xl text-white capitalize">Innovation</span>
            </div>

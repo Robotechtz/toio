@@ -33,7 +33,7 @@ function Footer() {
           </div>
             <div className="contact mb-3"> 
             <ul className="text-black text-lg font-bold text-justify">
-              <li className="">info@toio.robotech.co.tz</li>
+              <li className="">info@toio.or.tz</li>
               <li className="">+255 788 961 951</li>
               <li className="">Kalenga Street</li>
               <li className="">Upanga, Dar Es Salaam</li>
