@@ -1,0 +1,12 @@
+{
+  "projects": {},
+  "targets": {
+    "robotech-web": {
+      "hosting": {
+        "toio": [
+          "tanzania-oio"
+        ]
+      }
+    }
+  }
+}

@@ -52,21 +52,22 @@ export const Exproledata = [
         id: 0,
         title:'Innovation',
         desc: 'Supporting local innovators with relevant skills and programs, accessibility of tools and technical support towards innovation and impact',
-        pic:"https://firebasestorage.googleapis.com/v0/b/robotech-web.appspot.com/o/page-01.png?alt=media&token=07a78248-8fc0-4465-a10f-a17a0b957fcd"
+        pic:"https://firebasestorage.googleapis.com/v0/b/robotech-web.appspot.com/o/page-03.png?alt=media&token=9dc821e6-2421-41c3-ba94-9d0a5c6a31c4"
       },
 
       {   
         id: 1,
         title:'Ecosystem',
         desc: 'Creating a conducive ecosystem around the community where ideas are brought to reality',
-        pic:"https://firebasestorage.googleapis.com/v0/b/robotech-web.appspot.com/o/page-02.png?alt=media&token=1cbb88cd-bad9-4783-9fc0-1d0a3ec38aad"
+        pic:"https://firebasestorage.googleapis.com/v0/b/robotech-web.appspot.com/o/page-01.png?alt=media&token=07a78248-8fc0-4465-a10f-a17a0b957fcd"
       },
+      
 
       {   
         id: 2,
         title:'Foundation',
         desc: 'Scalable and sustainable CO-OP’s that are managed and lead by our very own makers',
-        pic:"https://firebasestorage.googleapis.com/v0/b/robotech-web.appspot.com/o/page-03.png?alt=media&token=9dc821e6-2421-41c3-ba94-9d0a5c6a31c4"
+        pic:"https://firebasestorage.googleapis.com/v0/b/robotech-web.appspot.com/o/page-02.png?alt=media&token=1cbb88cd-bad9-4783-9fc0-1d0a3ec38aad"
       },
 
       {   

@@ -28,7 +28,7 @@ function Explore() {
             })}
             </div>
            
-            <p className="text-justify w-full text-xl -ml-40  font-semibold justify my-7">{desc}</p>
+            <p className="text-justify w-full text-sm -ml-40  font-semibold justify my-7">{desc}</p>
             <div className='w-48 h-52 mt-5  overflow-hidden'>
               <img src={pic} alt="exlpore-icon"/>
              </div>
