@@ -14,7 +14,7 @@ function Home() {
     return (
         <div className="w-full h-screen top-0">
              <Navbar setExplore={setExplore}/>
-            <div className='h-screen  lg:-mt-16'> <Carousel  autoPlay={true} infiniteLoop={true} showThumbs={false} showStatus={false} showArrows={false}>
+            <div className='lg:h-screen mt-0 lg:-mt-16'> <Carousel  autoPlay={true} infiniteLoop={true} showThumbs={false} showStatus={false} showArrows={false}>
                 <div className='h-screen bg-black '>
                     <img src="https://firebasestorage.googleapis.com/v0/b/robotech-web.appspot.com/o/IMG_8972%20copy.jpg?alt=media&token=4d9d814c-0d18-443c-956f-6b5002a4a1e4" alt='home' className='opacity-40' />
                     
@@ -35,11 +35,11 @@ function Home() {
             <div className='z-20 relative h-screen w-full words'>
               {explore?<div className='w-full grid place-items-center -mr-40 h-screen '><Explore/></div>:<>
                    <div className='w-full h-screen grid place-items-center  words'>
-        <span className="font-bold text-9xl text-white capitalize">Innovation</span>
+        <span className="font-bold lg:text-9xl text-4xl text-white capitalize">Innovation</span>
            </div>
            <div className='flex items-center justify-center '>
-        <span className='h-16 w-32 bg-red-600 rounded-sm block mx-3'></span>
-        <p className='text-2xl text-white font-bold justify capitalize block w-2/5'>We focus towards technology innovation for the youth community</p>
+        <span className='lg:h-16 lg:w-32 h-8 w-16 bg-red-600 rounded-sm block mx-3'></span>
+        <p className='lg:text-2xl text-sm text-white font-bold justify capitalize block lg:w-2/5 w-3/5'>We focus towards technology innovation for the youth community</p>
            </div>
            </>}  
             </div>

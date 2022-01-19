@@ -13,7 +13,7 @@ function Footer() {
             <div className="fotitle">
             <div className="">
               <img
-                className="h-0 w-0 lg:h-32 lg:w-72"
+                className="h-0 w-full lg:h-32 lg:w-72 "
                 src="https://firebasestorage.googleapis.com/v0/b/medias-da388.appspot.com/o/toio-media%2Frobotech%20logo%20PNG-02.png?alt=media&token=906020b2-92fe-41f6-a078-47ce2a701506"
                 alt="logo"
               />

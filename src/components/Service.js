@@ -5,10 +5,10 @@ function Service() {
     return (
         <div className='w-full h-screen bg-white '>
             <div className='w-full grid place-items-center py-10'>
-                 <h1 className='text-5xl lowercase font-bold'>Improve your<span className='text-red-700 uppercase mx-3'>experience</span>with us</h1>
-                 <h1 className='text-5xl capitalize text-red-700 mt-8 font-bold'>our services</h1>
+                 <h1 className='lg:text-5xl text-lg lowercase font-bold'>Improve your<span className='text-red-700 uppercase lg:mx-3 mx-1'>experience</span>with us</h1>
+                 <h1 className='lg:text-5xl text-3xl capitalize text-red-700 mt-8 font-bold'>our services</h1>
             </div>
-            <div className='w-full h-1/2 bg-red-700 flex p-2 items-center justify-center'>
+            <div className='w-full lg:h-1/2 h-screen overflow-y-auto  bg-red-700 lg:flex lg:p-2 p-1 items-center justify-center'>
 
                 {Servicedata.map((item, index) => {
                     return(
