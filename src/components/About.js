@@ -6,7 +6,7 @@ function About() {
             <div className='w-full h-2/3 bg-red-700 lg:p-10 p-5'>
                 <p className='lg:text-lg text-sm text-white'>The future of tomorrow lies in the hands of the people, for which we believe that relevant guidance in ensuring the community is up to par with consistent change in technology. Every co-op is by the people, for the people.</p>
                 <p className='lg:text-lg text-sm text-justify text-white'>CO-OPS sectors: Community Development, Education, Health, Agriculture, E-Mobility, Lighting, Entrepreneurship & Digital Marketing, AI/IOT/ML</p>
-                <div className='w-full grid grid-cols-3 lg:p-2 p-1 pt-10'>
+                <div className='w-full grid grid-cols-3 lg:p-2 p-1 lg:pt-20 pt-10'>
                     <div >
                         <h1 className='text-black lg:text-7xl text-xl font-bold text-center'>2000+</h1>
                         <h1 className='text-white lg:text-lg text-sm text-center'>People reached</h1>
