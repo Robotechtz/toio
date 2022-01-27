@@ -8,7 +8,7 @@ function Footer() {
     return (
         <div>
             <div className="footer-top h-screen grid place-items-end">
-            <div className="footer bg-white opacity-90 h-1/2 w-full">
+            <div className="footer bg-white opacity-90 h-1/2 lg:h-1/6 w-full">
             <div className="md:flex lg:flex justify-around items-center py-14 ">
             <div className="fotitle">
             <div className="">
