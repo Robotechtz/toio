@@ -11,7 +11,7 @@ function OurTeam() {
             meet our <span className="text-red-600">TEAM</span>
           </h1>
         </div>
-        <div className="grid lg:grid-cols-4  ">
+        <div className="grid lg:grid-cols-3  ">
           {Team.map((item, index) => {
             return (
               <div key={index} className=" h-full rounded-lg pl-7 ">

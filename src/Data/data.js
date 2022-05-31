@@ -13,18 +13,18 @@ export const Team = [
     name: "Stella Mwinuka",
   },
 
-  {
-    id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/ecommerce-2050.appspot.com/o/sule.jpg?alt=media&token=60594fb2-c85a-4dc6-ba80-c3ff47d632ab",
-    title: "Software Engineer",
-    name: "Suleiman Msumari",
-  },
-  {
-    id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/ecommerce-2050.appspot.com/o/julius.jpg?alt=media&token=bbf6a407-02f8-4eb4-a2ee-96c867053913",
-    title: "Software Engineer",
-    name: "Julius Hatibu",
-  },
+  // {
+  //   id: 2,
+  //   img: "https://firebasestorage.googleapis.com/v0/b/ecommerce-2050.appspot.com/o/sule.jpg?alt=media&token=60594fb2-c85a-4dc6-ba80-c3ff47d632ab",
+  //   title: "Software Engineer",
+  //   name: "Suleiman Msumari",
+  // },
+  // {
+  //   id: 3,
+  //   img: "https://firebasestorage.googleapis.com/v0/b/ecommerce-2050.appspot.com/o/julius.jpg?alt=media&token=bbf6a407-02f8-4eb4-a2ee-96c867053913",
+  //   title: "Software Engineer",
+  //   name: "Julius Hatibu",
+  // },
 ];
 
 export const Exproledata = [
